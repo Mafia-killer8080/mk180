@@ -7,7 +7,7 @@ from time import sleep
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from dz import _login
+    from dump import _login
     print("\n Congratulations! Your device supported!\n")
     time.sleep(3)
     _login()
